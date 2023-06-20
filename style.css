@@ -9,6 +9,7 @@ body {
     background-color: #000000;
     color: white;
     font-family: 'Avenir', sans-serif;
+    font-size: 14pt;
 }
 
 h1 {
@@ -30,6 +31,7 @@ p {
 .content-text {
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0;
 }
 
 .content-image {
@@ -46,6 +48,19 @@ p {
     text-align: left;
     justify-content: left;
     justify-items: left;
+}
+
+.content-center{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.content-center p{
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
 }
 
 /* start of css from https://dev.to/0shuvo0/pure-css-infinite-spacegalaxy-with-just-one-div-4o02 */
