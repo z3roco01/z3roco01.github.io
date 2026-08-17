@@ -7,7 +7,7 @@ hero:
   tagline: Documentation for using the Lifed Mod
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Markdown Exampless
       link: /markdown-examples
     - theme: alt
       text: API Examples
