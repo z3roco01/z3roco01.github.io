@@ -3,29 +3,37 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/lifed-docs/',
-  srcDir: "../docs",
+  srcDir: '../docs',
   
-  title: "Lifed Documentation",
-  description: "Documentation for the Lifed Minecraft Fabric mod.",
+  title: 'Lifed Documentation',
+  description: 'Documentation for the Lifed Minecraft Fabric mod.',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: '/' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Usage',
+        base: '/usage/',
+        collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Getting Started', link: 'getting-started' }
+        ]
+      },
+      {
+        text: 'Configuration',
+        base: '/config',
+        collapsed: false,
+        items: [
+          { text: 'Config Introduction', link: 'index' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/z3roco01/lifed' },
+      { icon: 'discord', link: '' }
     ]
   }
 })

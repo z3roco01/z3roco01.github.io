@@ -5,20 +5,15 @@ layout: home
 hero:
   name: "Lifed Documentation"
   tagline: Documentation for using the Lifed Mod
-  actions:
-    - theme: brand
-      text: Markdown Exampless
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Getting Started
+    details: Introduction to the basics of using this mod as a server admin.
+    link: /usage/getting-started.html
+  - title: Configuration Documentation
+    details: All you could want to know about every variable in the config files!
+    link: /config/
+  - title: ???
+    details: idk if thisll be anything
 ---
 
