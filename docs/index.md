@@ -4,8 +4,7 @@ layout: home
 
 hero:
   name: "Lifed Documentation"
-  text: "Documentation for the Lifed Minecraft Fabric mod."
-  tagline: My great project tagline
+  tagline: Documentation for using the Lifed Mod
   actions:
     - theme: brand
       text: Markdown Examples
