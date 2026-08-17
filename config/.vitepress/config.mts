@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/lifed/'
   srcDir: "../docs",
   
   title: "Lifed Documentation",
@@ -28,7 +29,3 @@ export default defineConfig({
     ]
   }
 })
-
-export default {
-    base: '/lifed/'
-}
