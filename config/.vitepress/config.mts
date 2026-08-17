@@ -33,7 +33,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/z3roco01/lifed' },
-      { icon: 'discord', link: '' }
+      { icon: 'discord', link: 'https://discord.gg/azxQ9ZBDKv' }
     ]
   }
 })
