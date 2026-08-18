@@ -26,7 +26,7 @@ export default defineConfig({
         base: '/config',
         collapsed: false,
         items: [
-          { text: 'Config Introduction', link: 'index' }
+          { text: 'Config Overview', link: 'index' }
         ]
       }
     ],
