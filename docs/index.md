@@ -13,7 +13,8 @@ features:
   - title: Configuration Documentation
     details: All you could want to know about every variable in the config files!
     link: /config/
-  - title: ???
-    details: idk if thisll be anything
+  - title: Commands Overview
+    details: Overview of all the available commands, for players and admins.
+    link: /usage/commands/
 ---
 

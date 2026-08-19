@@ -23,6 +23,20 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Commands',
+        base: '/usage/commands/',
+        collapsed: false,
+        items: [
+          { text: 'Commands Overview', link: 'index' },
+          { text: 'Player Commands', link: 'player' },
+          { text: '/watcher lives', link: 'lives' },
+          { text: '/watcher boogey', link: 'boogey' },
+          { text: '/watcher session', link: 'session' },
+          { text: '/watcher lock', link: 'lock' },
+          { text: '/watcher soulmates', link: 'soulmates' }
+        ]
+      },
+      {
         text: 'Configuration',
         base: '/config',
         collapsed: false,
