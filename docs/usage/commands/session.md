@@ -6,3 +6,4 @@
 - `unpause`: Unpauses the current session.
 - `break`: Starts a break, acting the same as pause but with the [default break length](/config/session.html).
 - `cancelbreak`: Cancels the current break that is happening.
+- `first`: Needs to be ran before the session timer has started, will trigger the [`autostart`]() tasks that have been [enabled](/config/autostart)
