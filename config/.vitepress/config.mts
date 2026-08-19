@@ -27,6 +27,10 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Config Overview', link: 'index' }
+          { text: 'boogey.conf', link: 'boogey' }
+          { text: 'gameplay.conf', link: 'gameplay' }
+          { text: 'session.conf', link: 'session' }
+          { text: 'soulmates.conf', link: 'soulmates' }
         ]
       }
     ],
