@@ -23,6 +23,15 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Features',
+        base: '/feature/',
+        collapsed: false,
+        items: [
+          { text: 'Lives', link: 'lives' },
+          { text: 'Boogey', link: 'boogeyman' }
+        ]
+      },
+      {
         text: 'Commands',
         base: '/usage/commands/',
         collapsed: false,
